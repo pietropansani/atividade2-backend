@@ -1,7 +1,7 @@
-let conta = {
-    usuario: "eduardo",
-    senha: "1234",
-    nivel: "administrador"
+let escola = {
+    nome: "EEEP",
+    cidade: "Fortaleza",
+    turno: "manhã"
 };
 
-console.log("O usuário " + conta.usuario + " possui nível " + conta.nivel + " e utiliza a senha " + conta.senha + ", muito fraca por sinal.");
+console.log("A escola " + escola.nome + " funciona na cidade de " + escola.cidade + " no turno da " + escola.turno + ".");
